@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electricidad | Instalación, Mantenimiento y Reparación Eléctrica · Tijuana</title>
+  <meta name="description" content="Electricista profesional en Tijuana. Instalación, mantenimiento y reparación eléctrica residencial y comercial. Diagnóstico certero, trabajo garantizado y atención inmediata por WhatsApp.">
+  <meta name="keywords" content="electricista Tijuana, instalaciones eléctricas, mantenimiento eléctrico, reparación eléctrica residencial, reparación eléctrica comercial, electricista certificado Tijuana, electricidad Tijuana">
+  <meta property="og:title" content="Electricidad | Instalación Eléctrica Residencial y Comercial en Tijuana">
+  <meta property="og:description" content="Instalación, mantenimiento y reparación eléctrica con garantía escrita. Cotiza por WhatsApp y te respondemos de inmediato.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <i class="fa-regular fa-lightbulb"></i>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Electricidad — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <i class="fa-regular fa-lightbulb"></i>
+          </div>
+          <div class="nav-logo-copy">
+            <span>Electricidad</span>
+            <span>Tijuana, B.C.</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Por qué elegirnos</a></li>
+            <li><a href="#ambientes">Servicios</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#producto">Mantenimiento</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Cotización Gratis
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Por qué elegirnos</a>
+      <a href="#ambientes">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#producto">Mantenimiento</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Cotización Gratis →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image (fixed) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <!-- Dark overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle orbs -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Electricidad Residencial y Comercial · Tijuana, B.C.
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Electricidad</span></span>
+            <span class="line"><span>que enciende</span></span>
+            <span class="line"><span class="accent">confianza.</span></span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Instalación, mantenimiento y reparación eléctrica para <strong>hogares y negocios</strong> en Tijuana. Diagnóstico honesto, trabajo garantizado y la tranquilidad de saber que tu instalación quedó bien hecha.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar Cotización
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-regular fa-lightbulb" style="font-size:15px; color:var(--gray);"></i>
+              Ver Servicios
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Trabajo garantizado
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-bolt"></i>
+              Atención inmediata
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              Tijuana, B.C.
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Features
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia</div>
+            <h2 class="why-quote" id="why-heading">
+              La diferencia no siempre está en lo obvio…
+              <em> muchas veces está detrás de la pared.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Combinamos experiencia de campo con atención al detalle para que cada instalación sea segura, ordenada y duradera — sin sorpresas ni sobrecostos.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <h3>Diagnóstico Certero</h3>
+            <p>Revisamos a fondo antes de intervenir. Detectamos la causa real de la falla, no solo el síntoma.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <h3>Hogares y Negocios</h3>
+            <p>Atendemos desde la instalación de tu casa hasta el tablero eléctrico de tu oficina, comercio o nave industrial.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
+            <h3>Soluciones a la Medida</h3>
+            <p>Cada instalación es distinta. Diseñamos la solución eléctrica según el uso real del espacio, no una plantilla genérica.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Trabajo Garantizado</h3>
+            <p>Material certificado y mano de obra respaldada. Si algo no queda perfecto, regresamos a corregirlo sin costo.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         AMBIENTES — Tipos de luz
+    ══════════════════════════════════════════════════ -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Nuestros Servicios</div>
+            <h2 class="section-title" id="amb-heading">
+              No todo problema eléctrico<br>
+              <span class="gold">se resuelve igual</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Desde una instalación nueva hasta una reparación de emergencia — aplicamos el proceso correcto para cada caso.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Cuál necesitas?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- Instalaciones -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="AC06EB84B87FBAF45034B598260976ED.jpeg"
+              alt="Instalación de tablero de medidores eléctricos residenciales en Tijuana">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(59,130,246,0.15); border-color:rgba(96,165,250,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-plug-circle-bolt" style="color:#93c5fd;"></i>
+              </div>
+              <h3>Instalaciones Eléctricas</h3>
+              <p>Tableros, medidores, circuitos nuevos y ampliaciones — instalados conforme a norma, desde el primer cable.</p>
+              <div class="amb-temp">Servicio A — Instalación Completa</div>
+            </div>
+          </div>
+
+          <!-- Reparaciones -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="AC4F7F82A05D1BDADC3BCCBD3E4CDC84.jpeg"
+              alt="Reparación de caja de conexiones y cableado eléctrico">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(249,115,22,0.15); border-color:rgba(251,146,60,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-screwdriver-wrench" style="color:#fdba74;"></i>
+              </div>
+              <h3>Reparaciones de Emergencia</h3>
+              <p>Cortos, apagones, cableado dañado — resolvemos la falla rápido y de forma segura, cuando más lo necesitas.</p>
+              <div class="amb-temp">Servicio B — Respuesta Inmediata</div>
+            </div>
+          </div>
+
+          <!-- Mantenimiento -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="ACF087EE42F94938375BA849F32ED987.jpeg"
+              alt="Instalación de conducto eléctrico exterior con acometida">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,255,255,0.1); border-color:rgba(255,255,255,0.3);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-toolbox" style="color:white;"></i>
+              </div>
+              <h3>Mantenimiento Preventivo</h3>
+              <p>Revisiones periódicas que detectan riesgos antes de que se conviertan en un problema mayor.</p>
+              <div class="amb-temp">Servicio C — Prevención Constante</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — How we work
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Simple, rápido y <span class="gold">profesional</span>
+          </h2>
+          <p>Del diagnóstico a la entrega, te acompañamos en cada paso para que el resultado sea seguro y quede bien hecho.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Diagnóstico & Asesoría</h3>
+            <p>Revisamos el problema o el proyecto en sitio y te explicamos, en lenguaje claro, qué se necesita y por qué. Sin costo, sin compromiso.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Cotización a Medida</h3>
+            <p>Recibes una propuesta detallada con materiales, tiempos y precio transparente — sin letras chiquitas.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Ejecución & Garantía</h3>
+            <p>Realizamos el trabajo con material certificado y dejamos el área limpia. Todo con garantía por escrito.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PRODUCTO ESTRELLA
+    ══════════════════════════════════════════════════ -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Servicio Destacado</div>
+            <h2 class="section-title" id="prod-heading">
+              Mantenimiento eléctrico<br>
+              <span class="gold">integral y a tiempo</span>
+            </h2>
+            <p class="producto-lead">
+              Un plan de mantenimiento evita que una falla pequeña se convierta en un apagón, un corto o un riesgo real para tu familia o tu negocio.
+            </p>
+
+            <ul class="feature-rows" aria-label="Qué incluye el mantenimiento">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-plug-circle-bolt"></i></div>
+                <div>
+                  <h4>Instalaciones Conforme a Norma</h4>
+                  <p>Trabajamos bajo los criterios de la norma eléctrica mexicana (NOM-001-SEDE) para tu seguridad.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-leaf"></i></div>
+                <div>
+                  <h4>Optimización de Consumo</h4>
+                  <p>Detectamos fugas de energía y corregimos instalaciones que disparan tu recibo de luz.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-clipboard-check"></i></div>
+                <div>
+                  <h4>Revisión Detallada</h4>
+                  <p>Inspeccionamos cableado, tablero y conexiones antes de dar por cerrado cualquier trabajo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-wrench"></i></div>
+                <div>
+                  <h4>Mantenimiento Flexible</h4>
+                  <p>Planes de revisión periódica adaptados a tu hogar, oficina, comercio o nave industrial.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Compromisos de servicio">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">24/7</span>
+                <span class="spec-name">Emergencias</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">100%</span>
+                <span class="spec-name">Garantía escrita</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">NOM</span>
+                <span class="spec-name">001-SEDE</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Directo</span>
+                <span class="spec-name">Contacto WhatsApp</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Instalación de tablero eléctrico realizada por Electricidad">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Servicio certificado — Residencial y comercial
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-bolt" style="color:var(--gold);"></i>
+                Respuesta en Tijuana
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Estadísticas clave">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="24" data-suffix="/7"
+                 aria-label="24/7">0</div>
+            <div class="stat-lbl">Atención a<br>emergencias</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="100%">0</div>
+            <div class="stat-lbl">Garantía<br>por escrito</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="2" data-suffix=""
+                 aria-label="2 áreas">0</div>
+            <div class="stat-lbl">Áreas: residencial<br>y comercial</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="5" data-suffix="+"
+                 aria-label="5 o más sectores">0</div>
+            <div class="stat-lbl">Sectores<br>atendidos</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SECTORES
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Sectores</div>
+          <h2 class="section-title" id="sec-heading">
+            Servicio eléctrico para <span class="gold">cada sector</span>
+          </h2>
+          <p>Desde tu casa hasta instalaciones de gran escala, adaptamos el servicio al giro y las normas de cada lugar.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-building sector-icon" aria-hidden="true"></i>
+            <h3>Oficinas</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-store sector-icon" aria-hidden="true"></i>
+            <h3>Comercios</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-school sector-icon" aria-hidden="true"></i>
+            <h3>Escuelas</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-hospital sector-icon" aria-hidden="true"></i>
+            <h3>Hospitales</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-house sector-icon" aria-hidden="true"></i>
+            <h3>Hogares</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de <span class="gold">tu instalación</span>
+          </h2>
+          <p>Cuéntanos qué necesitas y te respondemos directo por WhatsApp, sin intermediarios.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención Directa</h3>
+            <p class="ci-sub">Resolvemos dudas, cotizamos y agendamos visitas por el mismo canal — rápido y sin vueltas.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Zona de Cobertura</h4>
+                  <p>Tijuana y área metropolitana,<br>Baja California.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfono</h4>
+                  <p>
+                    <a href="tel:6641887784">664 188 7784</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escríbenos y cotizamos en minutos.</p>
+                  <a href="https://wa.me/526641887784" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar Cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotización general</option>
+                    <option>Instalación eléctrica</option>
+                    <option>Reparación de emergencia</option>
+                    <option>Mantenimiento preventivo</option>
+                    <option>Revisión de tablero</option>
+                    <option>Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del proyecto</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Cuéntanos qué necesitas: tipo de inmueble, la falla o instalación que buscas, y cualquier detalle relevante…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación con nuestro equipo.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <i class="fa-regular fa-lightbulb"></i>
+          <span>Electricidad.</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Electricidad. Todos los derechos reservados. Tijuana, B.C.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/hagase_la_luz01?igsh=YXl3aHFzOTFxM3hu"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.tiktok.com/@hgase.la.luz5?_r=1&_t=ZS-97OyJsDcH4i"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+          <a href="https://wa.me/526641887784" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING WHATSAPP
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/526641887784?text=Hola%2C%20visit%C3%A9%20su%20sitio%20web%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
